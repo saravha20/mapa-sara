@@ -1,88 +1,54 @@
-# hello-world
-Desenvolver uma página web estática e de forma estruturada
-&lt;!DOCTYPE html&gt;
-&lt;html lang=&quot;pt-BR&quot;&gt;
-&lt;head&gt;
-   &lt;meta charset=&quot;UTF-8&quot;&gt;
-   &lt;title&gt;Atividade 1&lt;/title&gt;
-&lt;/head&gt;
-&lt;body&gt;
-   &lt;?php
-   $func = array(
-       1 =&gt; array(
-           &#39;col&#39; =&gt; &#39;Jose&#39;,
-           &#39;sal&#39; =&gt; 2000.30,
-           &#39;Sem1&#39; =&gt; 1500.10,
-           &#39;Sem2&#39; =&gt; 2250.00,
-           &#39;Sem3&#39; =&gt; 2800.00,
-           &#39;Sem4&#39; =&gt; 1900.00
-       ),
-       2 =&gt; array(
-           &#39;col&#39; =&gt; &#39;Tadeu&#39;,
-           &#39;sal&#39; =&gt; 2500.00,
-           &#39;Sem1&#39; =&gt; 1500.00,
-           &#39;Sem2&#39; =&gt; 4150.20,
-           &#39;Sem3&#39; =&gt; 3500.00,
-           &#39;Sem4&#39; =&gt; 2100.00
-       ),
-       3 =&gt; array(
-           &#39;col&#39; =&gt; &#39;Amanda&#39;,
-           &#39;sal&#39; =&gt; 1800.00,
-           &#39;Sem1&#39; =&gt; 1500.00,
 
-           &#39;Sem2&#39; =&gt; 6950.00,
-           &#39;Sem3&#39; =&gt; 4800.40,
-           &#39;Sem4&#39; =&gt; 2250.00
-       ),
-       4 =&gt; array(
-           &#39;col&#39; =&gt; &#39;Tsara&#39;,
-           &#39;sal&#39; =&gt; 2200.00,
-           &#39;Sem1&#39; =&gt; 1500.00,
-           &#39;Sem2&#39; =&gt; 4250.80,
-           &#39;Sem3&#39; =&gt; 3200.00,
-           &#39;Sem4&#39; =&gt; 1980.00
-       )
-   );
-   ?&gt;
- 
-   &lt;table class=&quot;tabela&quot;&gt;
-       &lt;thead&gt;
-           &lt;tr class=&quot;color&quot;&gt;
-               
-               &lt;th&gt;Colaborador&lt;/th&gt;
-               &lt;th&gt;Sálario Fixo&lt;/th&gt;
-               &lt;th class=&quot;text-center&quot;&gt;Venda Semana 1&lt;/th&gt;
-               &lt;th class=&quot;text-center &quot;&gt;Venda Semana 2&lt;/th&gt;
-               &lt;th class=&quot;text-center&quot;&gt;Venda Semana 3&lt;/th&gt;
-               &lt;th class=&quot;text-center&quot;&gt;Venda Semana 4&lt;/th&gt;
-               &lt;th class=&quot;text-center&quot;&gt;Total Vendas&lt;/th&gt;
-               &lt;th class=&quot;text-center&quot;&gt;Comissão&lt;/th&gt;
-               &lt;th class=&quot;text-center&quot;&gt;Sálario Final&lt;/th&gt;
-           &lt;/tr&gt;
+<B>TOPO</B>: DESENVOLVER UM SISTEMA WEB UTILIZANDO A LINGUAGEM PHP.
 
-       &lt;/thead&gt;
-       &lt;tbody&gt;
-           &lt;?php
-           foreach ($func as $colaborador =&gt; $valor) {
-               $TotalSema = $valor[&#39;Sem1&#39;] + $valor[&#39;Sem2&#39;] +
-$valor[&#39;Sem3&#39;] + $valor[&#39;Sem4&#39;];
-               $comissao = $TotalSema * 0.05;
-               $SalFinal = $comissao + $valor[&#39;sal&#39;];
-           ?&gt;
-               &lt;tr&gt;
-                   
-                   &lt;td&gt;&lt;?php echo $valor[&#39;col&#39;]; ?&gt;&lt;/td&gt;
-                   &lt;td&gt;&lt;?php echo $valor[&#39;sal&#39;]; ?&gt;&lt;/td&gt;
-                   &lt;td&gt;&lt;?php echo $valor[&#39;Sem1&#39;]; ?&gt;&lt;/td&gt;
-                   &lt;td&gt;&lt;?php echo $valor[&#39;Sem2&#39;]; ?&gt;&lt;/td&gt;
-                   &lt;td&gt;&lt;?php echo $valor[&#39;Sem3&#39;]; ?&gt;&lt;/td&gt;
-                   &lt;td&gt;&lt;?php echo $valor[&#39;Sem4&#39;]; ?&gt;&lt;/td&gt;
-                   &lt;td&gt;&lt;?php echo $TotalSema; ?&gt;&lt;/td&gt;
-                   &lt;td&gt;&lt;?php echo $comissao; ?&gt;&lt;/td&gt;
-                   &lt;td&gt;&lt;?php echo $SalFinal; ?&gt;&lt;/td&gt;
-               &lt;/tr&gt;
-           &lt;?php } ?&gt;
-       &lt;/tbody&gt;
-   &lt;/table&gt;
-&lt;/body&gt;
-&lt;/html&gt;
+<B>MENU HORIZONTAL</B>: HORIZONTAL
+<B>ITENS : QUEM SOMOS; CONTATO E LOCALIZAÇAO</B>;
+<B>LOCAL ONDE SERA ABERTO AS PAGINAS</B>:INTERNET.
+<B> RODAPE COM MEUS DADOS ACADEMICOS </B>;
+SARA MORIÁ SANTOS RODRIGUES 
+1418853 SSP-RO
+CURSO: SISTEMAS PARA INTERNET 
+
+
+page home:
+
+<B> QUEM SOMOS</B>:
+
+<B> Rpresentantes do setor de doces caseiros da vó maria isabel, aqui voce encontra uma variedade de doces com uma otima qualidade, alem de otimos precos e um atendimento personalizado...
+
+
+<B> LINK DIRECIONADO AOS PRODUTOS </B>:
+
+<!DOCTYPE html>
+<html>
+<body>
+
+<h1>HTML Links</h1>
+
+<p><a href="https://www.docescaseirosdavómariaisabel.com/"> Visitar Doces Caseiros!</a></p>
+
+</body>
+</html>
+
+<b><b>Alguns de nossos produtos: ('mousse,cocada,açaí,brigadeiro,donut,chocolate,pudim,doce de abobora e doce de cidra');
+
+<B>TABELA DE VALORES DOS PRODUTOS :
+<B> A partir de 3,99 até 9,99;
+
+
+<B>CONTATOS</B>:
+
+<B>69985011726 Sara Rodrigues</B>
+<B>69984854580 Marcos Rodrigues</B>.
+
+
+<B>LOCALIZACAO </B>:
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3891.613786588393!2d-60.14860708560729!3d-12.738599658622347!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x93b96bb520a5579f%3A0xb744ac8c6108d843!2sAv.%20Maj.%20Amarante%20-%20Centro%2C%20Vilhena%20-%20RO%2C%2076980-000!5e0!3m2!1spt-BR!2sbr!4v1630102647742!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>;
+
+<HTML>
+<FIM>  
+  
+  
+  
+  
+  
